@@ -24,7 +24,7 @@ function BookCard({ data, likedBooksHandler}) {
           </div>
         </div>
         <button onClick={likeHandler}>
-          <FaHeart fontSize="1.5rem" color={like ? "red" : "#e0e0e0"} />
+          <FaHeart fontSize="1.5rem" color={like ? "red" : "#959595"} />
         </button>
       </div>
     </>
